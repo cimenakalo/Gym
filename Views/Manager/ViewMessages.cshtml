@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Gym.Models.Messages>
+
+@{
+    ViewData["Title"] = "ViewMessages";
+}
+
+<h1>הודעות</h1>
+<a asp-action="ViewMessages" class="btn2" asp-controller="Manager">כל ההודעות </a>
+<a asp-action="CreateMessages" class="btn2" asp-controller="Manager">צור הודעה חדשה</a>
+<a asp-action="NotReadMessages" class="btn2" asp-controller="Manager">הודעות שלא נקראו</a>
+<a asp-action="ReadMessages" class="btn2" asp-controller="Manager">הודעות נקראו</a>
+<form style="float:left">
+    <input type="text" id="searchM">
+    <button type="button" onclick="searchMsg()" class="btn2">חפש</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.fullName)
+            </th>
+            <th>
+                מספר הודעה
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.messeagIndex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date)
+            </th>
+            <th>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.messeagIndex)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                </td>
+                <td>
+                    @if (item.Read)
+                    {
+                        <a asp-action="ReadChange" class="glyphicon glyphicon-eye-open" asp-controller="Manager" asp-route-id="@item.Id"></a>
+                    }
+                    else
+                    {
+                        <a asp-action="ReadChange" style="color:black" class="glyphicon glyphicon-eye-close" asp-controller="Manager" asp-route-id="@item.Id"></a>
+                    }
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                    <a asp-action="DeleteMessage" class="glyphicon glyphicon-trash" asp-controller="Manager" asp-route-id="@item.Id"></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

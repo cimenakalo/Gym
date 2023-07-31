@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gym</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Hover.css" />
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+</head>
+<body dir="rtl">
+    <header>
+        <div class="topnav">
+             @if (DataLayer.User.firstName == "התחבר")
+             {
+                <a asp-controller="Home" asp-action="LoginUser">התחבר</a>
+                <a  asp-action="SignIn"asp-controller="Home">הרשמה</a>
+             }
+             else
+             {
+                <spam>שלום @DataLayer.User.firstName @DataLayer.User.lastName ! </spam>
+                 <a  asp-controller="Home" asp-action="LogOutUser">התנתק</a>
+             }
+              <form style="float:left" class="search1">
+                <input type="text" id="search1">
+                <button type="button" onclick="search()"><span style="color:white" class="glyphicon glyphicon-search"></span></button>
+              </form>
+                    <a aria-current="page" href="//localhost:44319/"><span class="glyphicon glyphicon-home"></span>
+                     </a>
+                        @if (DataLayer.User.firstName != "התחבר")
+                        {
+                            @if (DataLayer.User.Cart.ShowHowMuch() > 0 )
+                            {
+                                <a style="color:white"  asp-action="viewCart" asp-controller="Home"> <span class="glyphicon glyphicon-shopping-cart"></span><span class="badge badge-pill bg-danger">@DataLayer.User.Cart.ShowHowMuch()</span></a>
+                            }
+                            @if(DataLayer.User is Admin)
+                            {
+                               <a style="color:white" asp-action="ViewMessages" asp-controller="Manager"> <span class="glyphicon glyphicon-envelope"></span>
+                                    @if(Messages.countNotRaed() >0)
+                                    {
+                                        <span class="badge badge-pill bg-danger">@Messages.countNotRaed()</span>
+                                    }
+                               </a>                                    
+                            }
+                        }
+                        <a asp-action="Menu" asp-controller="Manager">תפריטים</a>
+                        <a asp-action="viewCart" asp-controller="Home"> עגלה</a>
+                        <a asp-action="viewOrder" asp-controller="Manager"> הזמנות</a>
+                        <a asp-action="GoToEquipmentMenu" asp-controller="Manager">מוצרי כושר</a>
+                        <a asp-action="GoToShakeAndTosafMenu" asp-controller="Manager"> שייקים ותוספים</a>                     
+        </div>
+    </header>
+ @if (DataLayer.User is Admin)
+ {
+        <br />  <br />   
+    <ul>
+        <li>
+            <a asp-action="CreateBesari" asp-controller="Manager">הוספת בשרי</a>
+        </li>
+        <li>
+            <a asp-action="CreateHalavi" asp-controller="Manager"> הוספת חלבי</a>
+        </li>
+        <li>
+            <a asp-action="CreateParve" asp-controller="Manager"> הוספת פרווה</a>
+        </li>
+        <li>
+            <a asp-action="CreateBread" asp-controller="Manager"> הוספת לחם</a>
+        </li>
+        <li>
+            <a asp-action="CreateVegetable" asp-controller="Manager">הוספת ירק</a>
+        </li>
+        <li>
+            <a asp-action="CreateFruit" asp-controller="Manager"> הוספת פרי</a>
+        </li>
+        <li>
+            <a asp-action="CreateEquipment" asp-controller="Manager"> הוספת מוצר כושר</a>
+        </li>
+        <li>
+            <a asp-action="CreateShakeAndTosaf" asp-controller="Manager">הוסף שייק או תוסף</a>
+        </li>
+        <li>
+            <a asp-action="viewUsers" asp-controller="Manager">משתמשים</a>
+        </li>
+    </ul>
+ }
+    <center><img style="margin-top:50px" id="GymImg" src="/images/wallpaper.png"></center>
+    <hr />
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+            
+        </main>
+    <div style="margin-top:auto"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+    </div>
+
+    @*<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - Gym - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/JavaScript1.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    
+ 
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Gym.ModefittnesEquipment.Equipment>
+
+@{
+    ViewData["Title"] = "GoToEquipmentMenu";
+}
+
+<h1>מכשירי כושר</h1>
+@if (DataLayer.User is Admin)
+{
+    <p>
+        <a asp-action="EditEquipment" asp-controller="Manager"> הוסף מכשיר</a>
+    </p>
+}
+@foreach (var item in Model) {
+    @if (item.amountAvailable > 0)
+    {
+        <div class="card2">
+            <a asp-action="EquipmentDetails" asp-controller="Manager" asp-route-ID="@item.ID">
+                <img src="data:image;base64,@System.Convert.ToBase64String(item.photo)" width="240" height="280">
+                <h1>@item.name</h1>
+            </a>
+            <p class="price2">מחיר: @item.price</p>
+            <p>תיאור: @item.description</p>
+            <p>כמות: @item.amountAvailable</p>
+            <p>
+                @if (DataLayer.User.firstName != "התחבר")
+                {
+                    <a asp-action="AddToCart"  asp-route-ID="@item.ID" asp-route-name="@item.name" asp-controller="Home">
+                        <button>
+                            הוסף לעגלה
+                        </button>
+                    </a>
+                }
+                else
+                {
+                   <span style="color:red"> התחבר כדי להוסיף לעגלה!! </span>
+                }
+            </p>
+            @if (DataLayer.User is Admin)
+            {
+                <td>
+                    <a asp-action="EditEquipment" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                    </a> |
+                    <a asp-action="EquipmentDetails" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                    </a> |
+                    <a asp-action="DeleteEquipment" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            }
+        </div>
+    }
+}

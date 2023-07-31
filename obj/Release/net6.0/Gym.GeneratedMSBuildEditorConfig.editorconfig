@@ -1,0 +1,233 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gym
+build_property.RootNamespace = Gym
+build_property.ProjectDir = C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Home/LogInUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXEhvbWVcTG9nSW5Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXEhvbWVcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Home/viewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXEhvbWVcdmlld0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateBesari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlQmVzYXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlQnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateFruit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlRnJ1aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateHalavi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlSGFsYXZpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlTWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateParve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlUGFydmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateShakeAndTosaf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlU2hha2VBbmRUb3NhZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/CreateVegetable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcQ3JlYXRlVmVnZXRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/EditEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcRWRpdEVxdWlwbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/EditFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcRWRpdEZvb2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/EditShakeAndTosaf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcRWRpdFNoYWtlQW5kVG9zYWYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/GoToEquipmentMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcR29Ub0VxdWlwbWVudE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/GoToShakeAndTosafMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcR29Ub1NoYWtlQW5kVG9zYWZNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/ShakeAndTosafDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcU2hha2VBbmRUb3NhZkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Manager/ViewMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXE1hbmFnZXJcVmlld01lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Home/LogInUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJblVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Home/viewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateBesari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVCZXNhcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVCcmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateFruit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVGcnVpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateHalavi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVIYWxhdmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVNZXNzYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateParve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVQYXJ2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateShakeAndTosaf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVTaGFrZUFuZFRvc2FmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/CreateVegetable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVWZWdldGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/EditEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0RXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/EditFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0Rm9vZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/EditShakeAndTosaf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0U2hha2VBbmRUb3NhZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/GoToEquipmentMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxHb1RvRXF1aXBtZW50TWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/GoToShakeAndTosafMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxHb1RvU2hha2VBbmRUb3NhZk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/ShakeAndTosafDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxTaGFrZUFuZFRvc2FmRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Manager/ViewMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxWaWV3TWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Gym/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R3ltXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-9z3xtox9aa
+
+[C:/Users/סימן אקלו/OneDrive/שולחן העבודה/שעורים/full stack C/Gym/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5j2v4703w6

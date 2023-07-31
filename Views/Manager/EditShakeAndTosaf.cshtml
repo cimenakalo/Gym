@@ -1,0 +1,96 @@
+﻿@model Gym.Models.ShakeAndTosaf
+
+@{
+    ViewData["Title"] = "EditShakeAndTosaf";
+}
+
+<h1>עריכת שייק או תוסף</h1>
+
+<h4>שייקים ותוספים</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditShakeAndTosaf" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="kosher" class="control-label"></label>
+                <input asp-for="kosher" class="form-control" />
+                <span asp-validation-for="kosher" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="taste" class="control-label"></label>
+                <input asp-for="taste" class="form-control" />
+                <span asp-validation-for="taste" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="halavi" /> @Html.DisplayNameFor(model => model.halavi)
+                </label>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="category" class="control-label"></label>
+                <input asp-for="category" class="form-control" />
+                <span asp-validation-for="category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="price" class="control-label"></label>
+                <input asp-for="price" class="form-control" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+               <div class="form-group">
+                <label asp-for="amountAvailable" class="control-label"></label>
+                <input asp-for="amountAvailable" class="form-control" />
+                <span asp-validation-for="amountAvailable" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="protein" class="control-label"></label>
+                <input asp-for="protein" class="form-control" />
+                <span asp-validation-for="protein" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="calories" class="control-label"></label>
+                <input asp-for="calories" class="form-control" />
+                <span asp-validation-for="calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="carbs" class="control-label"></label>
+                <input asp-for="carbs" class="form-control" />
+                <span asp-validation-for="carbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fats" class="control-label"></label>
+                <input asp-for="fats" class="form-control" />
+                <span asp-validation-for="fats" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="photo" class="control-label"></label>
+                <input asp-for="file" class="form-control" />
+                <span asp-validation-for="photo" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="שמור" class="btn2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GoToShakeAndTosafMenu" asp-controller="Manager">חזור לרשימה</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,483 @@
+﻿@model Gym.Models.Menu
+
+@{
+    ViewData["Title"] = "Menu";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+@if (DataLayer.User.firstName != "התחבר")
+{
+   @if(DataLayer.User.menus.Count() > 0)
+   {
+      <h4> תפריטים קיימים </h4>
+
+      @foreach (Menu menu in DataLayer.User.menus.ToList())
+      {
+          <a asp-action="Menu" asp-route-ID="@menu.ID">@menu.name</a>
+          <br />
+      }
+     
+   }
+<form asp-action="CreateNewMenu">
+    
+        <div id="ShowMenu" style="display:@Model.NewMenu">
+
+            <h4>רשום את שם התפריט </h4>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="הוסף תפריט חדש" class="btn2" />
+            </div>
+        </div>
+    
+</form>
+<form asp-action="CreateNewMenu">
+
+    <div id="ShowMenu" style="display:none">
+
+        <h4>רשום את שם התפריט </h4>
+        <div class="form-group">
+            <label asp-for="name" class="control-label"></label>
+            <input asp-for="name" class="form-control" />
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="הוסף תפריט חדש" class="btn" />
+        </div>
+    </div>
+    
+</form>
+    @if (DataLayer.User.menus.Count() > 0)
+    {    
+       <table class="table" id="TableForMenu" style="display:@Model.NewMenu">
+            <tr>
+                <td style="align-content:center !important">
+                    <center>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/בשרי.jpg" width="200" height="150" onclick="ShowBessari()" /></button>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/פרווה.jpg" width="200" height="150" onclick="ShowParve()" /></button>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/חלבי.jpg" width="200" height="150" onclick="ShowHalavi()" /></button>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/לחמים.png" width="200" height="150" onclick="ShowBread()" /></button>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/ירקות.jpeg" width="200" height="150" onclick="ShowVegetable()" /></button>
+                        <button style="background-color:transparent;margin:25pt;border-color:transparent"><img src="~/images/פירות.jpeg" width="200" height="150" onclick="ShowFruit()" /></button>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td id="VegetableImage" style="display:none">
+                    @foreach (Vegetable vegetable in DataLayer.Data.Vegetables)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@vegetable.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(vegetable.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @vegetable.calories <br />חלבון: @vegetable.protein<br> פחממות: @vegetable.carbs <br>שומן: @vegetable.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }                   
+                        </div>
+                    }
+                </td>
+                <td id="FruitImage" style="display:none">
+                    @foreach (Fruit fruit in DataLayer.Data.Fruits)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@fruit.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@fruit.ID" asp-route-name="@fruit.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(fruit.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @fruit.calories <br />חלבון: @fruit.protein<br> פחממות: @fruit.carbs <br>שומן: @fruit.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@fruit.ID" asp-route-name="@fruit.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@fruit.ID" asp-route-name="@fruit.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </td>
+
+                <td id="BessariImage" style="display:none">
+                    @foreach (Besari halavi in DataLayer.Data.Besaris)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@halavi.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(halavi.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @halavi.calories <br />חלבון: @halavi.protein<br> פחממות: @halavi.carbs <br>שומן: @halavi.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </td>
+
+                <td id="BreadImage" style="display:none">
+                    @foreach (Bread halavi in DataLayer.Data.Breads)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@halavi.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(halavi.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @halavi.calories <br />חלבון: @halavi.protein<br> פחממות: @halavi.carbs <br>שומן: @halavi.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </td>
+
+
+                <td id="ParveiImage" style="display:none">
+                    @foreach (Parve halavi in DataLayer.Data.Parves)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@halavi.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(halavi.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @halavi.calories <br />חלבון: @halavi.protein<br> פחממות: @halavi.carbs <br>שומן: @halavi.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </td>
+
+                <td id="HalaviiImage" style="display:none">
+                    @foreach (Halavi halavi in DataLayer.Data.Halavis)//הלולאה רצה על כל האובייקטים הבשריים
+                    {
+                        <div class="container2">
+                            <h4>@halavi.name</h4>
+                            <a asp-action="AddToMenu" asp-route-ID="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">
+                                <img src="data:image;base64,@System.Convert.ToBase64String(halavi.photo)" class="image">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">קלוריות: @halavi.calories <br />חלבון: @halavi.protein<br> פחממות: @halavi.carbs <br>שומן: @halavi.fats</div>
+                            </div>
+                            @if (DataLayer.User is Admin)
+                            {
+                                <div style="text-align:center">
+                                    <a asp-action="EditFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">עריכה</a>
+                                    <a asp-action="DeleteFood" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-MenuID="@Model.ID">מחיקה</a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </td>
+
+            </tr>
+
+        </table>
+        <center>
+            <h5><a class="btn2" asp-action="DeleteMenu" asp-controller="Manager" asp-route-id="@Model.ID" asp-route-MenuID="@Model.ID">מחק תפריט זה</a></h5>
+            <hr>
+            <h4>@Model.name</h4>
+            <table class="table">
+                <tr>
+                    <th>שם המאכל</th>
+                    <th>תיאור המאכל</th>
+                    <th>קלוריות</th>
+                    <th>חלבון</th>
+                    <th>פחממות</th>
+                    <th>שומן</th>
+                    <th>כמות</th>
+                    <th>תמונה</th>
+                    <th>הסר מאכל</th>
+
+                </tr>
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "בשרי") != null)
+                    {
+                        @foreach (Food besari in @Model.foodList.ToList())
+                        {
+                            @if (besari.category == "בשרי")
+                            {
+                                <tr>
+                                    <td>@besari.name</td>
+                                    <td>@besari.description</td>
+                                    <td>@besari.calories</td>
+                                    <td>@besari.protein</td>
+                                    <td>@besari.carbs</td>
+                                    <td>@besari.fats</td>
+                                    <td>
+                                        @if (besari.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@besari.ID" asp-route-name="@besari.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @besari.amount
+                                        <a class="glyphicon glyphicon-plus" style="color:brown"  asp-action="addAmountToMenu" asp-route-id="@besari.ID"  asp-route-name="@besari.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(besari.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@besari.ID" asp-route-name="@besari.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+
+                        }
+                    }
+
+                }
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "פירות") != null)
+                    {
+                        @foreach (Food fruit in @Model.foodList.ToList())
+                        {
+                            @if (fruit.category == "פירות")
+                            {
+                                <tr>
+                                    <td>@fruit.name</td>
+                                    <td>@fruit.description</td>
+                                    <td>@fruit.calories</td>
+                                    <td>@fruit.protein</td>
+                                    <td>@fruit.carbs</td>
+                                    <td>@fruit.fats</td>
+                                    <td>
+                                        @if (fruit.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@fruit.ID" asp-route-name="@fruit.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @fruit.amount
+                                        <a class ="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmountToMenu" asp-route-id="@fruit.ID" asp-route-name="@fruit.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(fruit.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@fruit.ID" asp-route-name="@fruit.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+                        }
+                    }
+
+                }
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "פרווה") != null)
+                    {
+                        @foreach (Food parve in @Model.foodList.ToList())
+                        {
+                            @if (parve.category == "פרווה")
+                            {
+                                <tr>
+                                    <td>@parve.name</td>
+                                    <td>@parve.description</td>
+                                    <td>@parve.calories</td>
+                                    <td>@parve.protein</td>
+                                    <td>@parve.carbs</td>
+                                    <td>@parve.fats</td>
+                                    <td>
+                                        @if (parve.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@parve.ID" asp-route-name="@parve.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @parve.amount
+                                        <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmountToMenu" asp-route-id="@parve.ID" asp-route-name="@parve.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(parve.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@parve.ID" asp-route-name="@parve.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+                        }
+                    }
+                }
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "חלבי") != null)
+                    {
+                        @foreach (Food halavi in @Model.foodList.ToList())
+                        {
+                            @if (halavi.category == "חלבי")
+                            {
+                                <tr>
+                                    <td>@halavi.name</td>
+                                    <td>@halavi.description</td>
+                                    <td>@halavi.calories</td>
+                                    <td>@halavi.protein</td>
+                                    <td>@halavi.carbs</td>
+                                    <td>@halavi.fats</td>
+                                    <td>
+                                        @if (halavi.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @halavi.amount
+                                        <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmountToMenu" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(halavi.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a  asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@halavi.ID" asp-route-name="@halavi.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+                        }
+                    }
+
+                }
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "לחמים") != null)
+                    {
+                        @foreach (Food bread in @Model.foodList.ToList())
+                        {
+                            @if (bread.category == "לחמים")
+                            {
+                                <tr>
+                                    <td>@bread.name</td>
+                                    <td>@bread.description</td>
+                                    <td>@bread.calories</td>
+                                    <td>@bread.protein</td>
+                                    <td>@bread.carbs</td>
+                                    <td>@bread.fats</td>
+                                    <td>
+                                        @if (bread.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@bread.ID" asp-route-name="@bread.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @bread.amount
+                                        <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmountToMenu" asp-route-id="@bread.ID" asp-route-name="@bread.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(bread.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@bread.ID" asp-route-name="@bread.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+
+                        }
+                    }
+
+                }
+                @if (@Model.foodList.Count() != 0)
+                {
+                    @if (Model.foodList.ToList().Find(x => x.category == "ירקות") != null)
+                    {
+                        @foreach (Food vegetable in @Model.foodList.ToList())
+                        {
+                            @if (vegetable.category == "ירקות")
+                            {
+                                <tr>
+                                    <td>@vegetable.name</td>
+                                    <td>@vegetable.description</td>
+                                    <td>@vegetable.calories</td>
+                                    <td>@vegetable.protein</td>
+                                    <td>@vegetable.carbs</td>
+                                    <td>@vegetable.fats</td>
+                                    <td>
+                                        @if (vegetable.amount > 1)
+                                        {
+                                            <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmountFromMenu" asp-route-id="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-menuId="@Model.ID"></a>
+                                        }
+                                        @vegetable.amount
+                                        <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmountToMenu" asp-route-id="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-menuId="@Model.ID"></a>
+                                    </td>
+                                    <td>
+                                        <img src="data:image;base64,@System.Convert.ToBase64String(vegetable.photo)" width="60" height="80" />
+                                    </td>
+                                    <td>
+                                        <a asp-action="DeleteFromMenu" style="color:brown" asp-route-id="@vegetable.ID" asp-route-name="@vegetable.name" asp-route-menuId="@Model.ID">מחיקה</a>
+                                    </td>
+
+                                </tr>
+                            }
+                        }
+                    }
+
+                }
+                <tr>
+
+                    <td><strong>סה"כ</strong></td>
+                    <td>
+                    </td>
+                    <td>
+                        <strong>@(
+                    Model.getValues("calories")
+            )</strong>
+                    </td>
+                    <td>
+                        <strong> @(
+                    Model.getValues("protein")
+           )</strong>
+                    </td>
+                    <td>
+                        <strong>   @(
+                    Model.getValues("carbs")
+         )</strong>
+                    </td>
+                    <td>
+                        <strong>   @(
+                    Model.getValues("fats")
+         )</strong>
+                    </td>
+                    <td>
+
+                    </td><td>
+
+                    </td>
+                    <td></td>
+                </tr>
+
+
+
+
+
+            </table>
+        </center>
+    }
+   
+}
+else
+{
+    <h1>בכדי ליצור תפריט חדש עליך להתחבר</h1>
+    <a asp-controller="Home" asp-action="LogInUser"></a>
+}

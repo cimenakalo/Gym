@@ -1,0 +1,220 @@
+﻿@model Gym.Models.Cart
+
+@{
+    ViewData["Title"] = "viewCart";
+}
+@if (DataLayer.User.firstName != "התחבר")
+{
+<h1>עגלה של: @DataLayer.User.firstName @DataLayer.User.lastName</h1>
+    <h3> <span style="color:brown">@Model.totalPrice </span></h3>
+    @if (Model != null)
+    {
+        @if (Model.EquipmentList.Count() != 0 || Model.ShakeAndTosafList.Count() != 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.serialNumber)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.weight)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.category)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.price)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.amountAvailable)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.description)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.brand)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EquipmentList.First().equipment.photo)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.EquipmentList)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.serialNumber)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.weight)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.category)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.getPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.amountAvailable)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.equipment.brand)
+                            </td>
+                            <td>
+                                <img src="data:image;base64,@System.Convert.ToBase64String(item.equipment.photo)" width="60" height="80" />
+                            </td>
+                            <td>
+                                @if (item.amount > 1)
+                                {
+                                    <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmuontFromCart" asp-route-id="@item.equipment.ID" asp-route-name="@item.equipment.name" asp-route-menuId="@Model.ID"></a>
+                                }
+                                @item.amount
+                                <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmuontToCart" asp-route-id="@item.equipment.ID" asp-route-name="@item.equipment.name" asp-route-menuId="@Model.ID"> </a>
+                                <a asp-action="DeleteFromCart" style="color:brown" asp-route-id="@item.ID" asp-route-MenuID="@Model.ID">מחיקה</a>
+                            </td>
+                        </tr>
+                       
+                    }
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.TypeOf)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.kosher)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.taste)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.halavi)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.price)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.description)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.protein)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.calories)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.carbs)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.fats)
+                        </th>
+
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.photo)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShakeAndTosafList.First().ShakeAndTosaf.amount)
+                        </th>
+
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ShakeAndTosafList)
+                    {
+                        <tr>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.TypeOf)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.kosher)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.taste)
+                            </td>
+                            <td>
+                                @if (item.ShakeAndTosaf.halavi == true)
+                                {
+                                    <span>חלבי</span>
+
+                                }
+                                else
+                                {
+                                    <Span>פרווה</Span>
+                                }
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.getPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.protein)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.calories)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.carbs)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ShakeAndTosaf.fats)
+                            </td>
+                            <td>
+                                <img src="data:image;base64,@System.Convert.ToBase64String(item.ShakeAndTosaf.photo)" width="60" height="80" />
+
+                            </td>
+                            <td>
+                                @if (item.amount > 1)
+                                {
+                                    <a class="glyphicon glyphicon-minus" style="color:brown" asp-action="subAmuontFromCart" asp-route-id="@item.ShakeAndTosaf.ID" asp-route-name="@item.ShakeAndTosaf.name" asp-route-menuId="@Model.ID"></a>
+                                }
+                                @item.amount
+                                <a class="glyphicon glyphicon-plus" style="color:brown" asp-action="addAmuontToCart" asp-route-id="@item.ShakeAndTosaf.ID" asp-route-name="@item.ShakeAndTosaf.name" asp-route-menuId="@Model.ID"> </a>
+                                <a asp-action="DeleteFromCart" style="color:brown" asp-route-id="@item.ID" asp-route-MenuID="@Model.ID">מחיקה</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a asp-action="payment" asp-controller="Manager" asp-route-itemid="@Model.ID"><button class="btn2">לתשלום</button></a>
+        }
+        else
+        {
+            <h4>עגלה זו ריקה</h4>
+        }
+
+    }
+}
+else{
+    <h3>עליך להתחבר כדי להיכנס לעגלה!!</h3>
+    <br />
+    <h3>
+        כדי להתחבר לחץ<a asp-action="LogInUser" asp-controller="Home">כאן</a>
+        <br>
+        להרשמה לחץ <a asp-action="SignIn" asp-controller="Home">כאן</a>
+    </h3>
+}

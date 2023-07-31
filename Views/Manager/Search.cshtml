@@ -1,0 +1,91 @@
+﻿@model Gym.Models.Search
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>תוצאות חיפוש :</h1>
+
+@foreach (var item in Model.Equipmentlist) {
+    @if (item.amountAvailable > 0)
+    {
+        <div class="card2">
+            <a asp-action="EquipmentDetails" asp-controller="Manager" asp-route-ID="@item.ID">
+                <img src="data:image;base64,@System.Convert.ToBase64String(item.photo)" width="240" height="280">
+                <h1>@item.name</h1>
+            </a>
+            <p class="price2">מחיר: @item.price</p>
+            <p>תיאור: @item.description</p>
+            <p>כמות: @item.amountAvailable</p>
+            <p>
+                @if (DataLayer.User.firstName != "התחבר")
+                {
+                    <button >
+                        <a asp-action="AddToCart" style="color:brown" asp-route-ID="@item.ID" asp-route-name="@item.name" asp-controller="Home">הוסף לעגלה</a>
+                </button>
+                }
+                else
+                {
+                   <span> התחבר כדי להוסיף לעגלה!! </span>
+                }
+            </p>
+            @if (DataLayer.User is Admin)
+            {
+                <td>
+                    <a asp-action="EditEquipment" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                    </a> |
+                    <a asp-action="EquipmentDetails" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                    </a> |
+                    <a asp-action="DeleteEquipment" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            }
+        </div>
+    }
+}
+
+@foreach (var item in Model.shakeAndTosaflist) {
+    @if (item.amountAvailable > 0)
+    {
+        <div class="card2">
+            <a asp-action="ShakeAndTosafDetails" asp-controller="Manager" asp-route-ID="@item.ID">
+                <img src="data:image;base64,@System.Convert.ToBase64String(item.photo)" width="240" height="280">
+                <h1>@item.name</h1>
+            </a>
+            <p class="price2">מחיר: @item.price</p>
+            <p>תיאור: @item.description</p>
+            <p>כמות: @item.amountAvailable</p>
+            <p>
+                @if (DataLayer.User.firstName != "התחבר")
+                {
+                    <a asp-action="AddToCart"  asp-route-ID="@item.ID" asp-route-name="@item.name" asp-controller="Home">
+                        <button>
+                            הוסף לעגלה
+                        </button>
+                    </a>
+                }
+                else
+                {
+                   <span> התחבר כדי להוסיף לעגלה!! </span>
+                }
+            </p>
+            @if (DataLayer.User is Admin)
+            {
+                <td>
+                    <a asp-action="EditShakeAndTosaf" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                    </a> |
+                    <a asp-action="ShakeAndTosafDetails" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                    </a> |
+                    <a asp-action="DeleteShakeAndTosaf" asp-controller="Manager" asp-route-itemid="@item.ID" style="color:brown">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            }
+        </div>
+    }
+}

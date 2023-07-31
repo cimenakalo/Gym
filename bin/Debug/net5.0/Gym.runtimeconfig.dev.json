@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\סימן אקלו\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\סימן אקלו\\.nuget\\packages"
+    ]
+  }
+}

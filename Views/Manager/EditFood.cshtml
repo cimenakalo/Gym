@@ -1,0 +1,218 @@
+﻿@model Gym.Models.Food
+
+@{
+    ViewData["Title"] = "EditFood2";
+}
+
+<h1>EditFood2</h1>
+
+<h4>food</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditFood" asp-route-MenuID = "@Model.MenuIdent" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+              <div class="form-group" hidden>
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" />
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="category" class="control-label"></label>
+                <input asp-for="category" class="form-control" />
+                <span asp-validation-for="category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="protein" class="control-label"></label>
+                <input asp-for="protein" class="form-control" />
+                <span asp-validation-for="protein" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="calories" class="control-label"></label>
+                <input asp-for="calories" class="form-control" />
+                <span asp-validation-for="calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="carbs" class="control-label"></label>
+                <input asp-for="carbs" class="form-control" />
+                <span asp-validation-for="carbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fats" class="control-label"></label>
+                <input asp-for="fats" class="form-control" />
+                <span asp-validation-for="fats" class="text-danger"></span>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="שמור" class="btn2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@*@if(@Model.halavi!=null){
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditFood" asp-route-MenuID = "@Model.MenuID" asp-route-passedParemeter ="Halavi">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" hidden>
+                <label asp-for="halavi.ID" class="control-label"></label>
+                <input asp-for="halavi.ID" class="form-control" />
+                <span asp-validation-for="halavi.ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.name" class="control-label"></label>
+                <input asp-for="halavi.name" class="form-control" />
+                <span asp-validation-for="halavi.name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.description" class="control-label"></label>
+                <input asp-for="halavi.description" class="form-control" />
+                <span asp-validation-for="halavi.description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.protein" class="control-label"></label>
+                <input asp-for="halavi.protein" class="form-control" />
+                <span asp-validation-for="halavi.protein" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.calories" class="control-label"></label>
+                <input asp-for="halavi.calories" class="form-control" />
+                <span asp-validation-for="halavi.calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.carbs" class="control-label"></label>
+                <input asp-for="halavi.carbs" class="form-control" />
+                <span asp-validation-for="halavi.carbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="halavi.fats" class="control-label"></label>
+                <input asp-for="halavi.fats" class="form-control" />
+                <span asp-validation-for="halavi.fats" class="text-danger"></span>
+            </div>
+     
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+}
+@if(@Model.parve!=null){
+<div class="row">
+    <div class="col-md-4">
+       <form asp-action="EditFood" asp-route-MenuID = "@Model.MenuID" asp-route-passedParemeter ="Parve">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+             <div class="form-group" hidden>
+                <label asp-for="parve.ID" class="control-label"></label>
+                <input asp-for="parve.ID" class="form-control" />
+                <span asp-validation-for="parve.ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.name" class="control-label"></label>
+                <input asp-for="parve.name" class="form-control" />
+                <span asp-validation-for="parve.name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.description" class="control-label"></label>
+                <input asp-for="parve.description" class="form-control" />
+                <span asp-validation-for="parve.description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.protein" class="control-label"></label>
+                <input asp-for="parve.protein" class="form-control" />
+                <span asp-validation-for="parve.protein" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.calories" class="control-label"></label>
+                <input asp-for="parve.calories" class="form-control" />
+                <span asp-validation-for="parve.calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.carbs" class="control-label"></label>
+                <input asp-for="parve.carbs" class="form-control" />
+                <span asp-validation-for="parve.carbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="parve.fats" class="control-label"></label>
+                <input asp-for="parve.fats" class="form-control" />
+                <span asp-validation-for="parve.fats" class="text-danger"></span>
+            </div>
+      
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+}
+@if(@Model.bread!=null){
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditFood" asp-route-MenuID = "@Model.MenuID" asp-route-passedParemeter ="Bread">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+             <div class="form-group" hidden>
+                <label asp-for="bread.ID" class="control-label"></label>
+                <input asp-for="bread.ID" class="form-control" />
+                <span asp-validation-for="bread.ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.name" class="control-label"></label>
+                <input asp-for="bread.name" class="form-control" />
+                <span asp-validation-for="bread.name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.typeOfBread" class="control-label"></label>
+                <input asp-for="bread.typeOfBread" class="form-control" />
+                <span asp-validation-for="bread.typeOfBread" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.protein" class="control-label"></label>
+                <input asp-for="bread.protein" class="form-control" />
+                <span asp-validation-for="bread.protein" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.calories" class="control-label"></label>
+                <input asp-for="bread.calories" class="form-control" />
+                <span asp-validation-for="bread.calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.carbs" class="control-label"></label>
+                <input asp-for="bread.carbs" class="form-control" />
+                <span asp-validation-for="bread.carbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bread.fats" class="control-label"></label>
+                <input asp-for="bread.fats" class="form-control" />
+                <span asp-validation-for="bread.fats" class="text-danger"></span>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+}*@
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

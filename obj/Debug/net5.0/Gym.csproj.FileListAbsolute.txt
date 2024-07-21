@@ -577,7 +577,6 @@ C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full st
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.RazorTargetAssemblyInfo.cache
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.RazorTargetAssemblyInfo.cs
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.Views.pdb
-C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.csproj.CopyComplete
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.dll
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\refint\Gym.dll
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.pdb
@@ -588,3 +587,4 @@ C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full st
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Razor\Views\Manager\viewUsers.cshtml.g.cs
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Razor\Views\Manager\payment.cshtml.g.cs
 C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Razor\Views\Manager\EquipmentDetails.cshtml.g.cs
+C:\Users\סימן אקלו\OneDrive\שולחן העבודה\שעורים\full stack C\Gym\obj\Debug\net5.0\Gym.csproj.Up2Date

@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\vmequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\vmequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\modefittnesequipment\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:modefittnesequipment\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\gotoshakeandtosafmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\gotoshakeandtosafmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\gotoequipmentmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\gotoequipmentmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\wwwroot\\js\\javascript1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:wwwroot\\js\\javascript1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\home\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\home\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\home\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\home\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\photoconvertfiletobytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\photoconvertfiletobytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\wwwroot\\css\\hover.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:wwwroot\\css\\hover.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\equipmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\equipmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\shakeandtosafdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\shakeandtosafdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\shakeandtosaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\shakeandtosaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\vmshakestosaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\vmshakestosaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\viewmessages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\viewmessages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\manager\\editshakeandtosaf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\manager\\editshakeandtosaf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack c\\gym\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7740AD7F-8716-4186-B18C-BF2AF9EE22A4}|Gym.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Search.cs",
+              "RelativeDocumentMoniker": "Models\\Search.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Search.cs",
+              "RelativeToolTip": "Models\\Search.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-24T09:36:15.09Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAABOwBUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.486Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\payment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\payment.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\payment.cshtml",
+              "RelativeToolTip": "Views\\Manager\\payment.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBmwEgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T08:41:30.703Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GoToEquipmentMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\GoToEquipmentMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\GoToEquipmentMenu.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\GoToEquipmentMenu.cshtml",
+              "RelativeToolTip": "Views\\Manager\\GoToEquipmentMenu.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAABOwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.491Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoToShakeAndTosafMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\GoToShakeAndTosafMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\GoToShakeAndTosafMenu.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\GoToShakeAndTosafMenu.cshtml",
+              "RelativeToolTip": "Views\\Manager\\GoToShakeAndTosafMenu.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAABOwB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.493Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Controllers\\ManagerController.cs",
+              "ViewState": "AQIAANEBAAAAAAAAAAAAAB0BAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.492Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataLayer.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\DataLayer.cs",
+              "RelativeDocumentMoniker": "Models\\DataLayer.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\DataLayer.cs",
+              "RelativeToolTip": "Models\\DataLayer.cs",
+              "ViewState": "AQIAAPAAAAAAAAAAAAA+wPcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAuwKUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VmEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\VmEquipment.cs",
+              "RelativeDocumentMoniker": "Models\\VmEquipment.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\VmEquipment.cs",
+              "RelativeToolTip": "Models\\VmEquipment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\ModefittnesEquipment\\Equipment.cs",
+              "RelativeDocumentMoniker": "ModefittnesEquipment\\Equipment.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\ModefittnesEquipment\\Equipment.cs",
+              "RelativeToolTip": "ModefittnesEquipment\\Equipment.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwCkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T20:31:15.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "Models\\Photo.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Photo.cs",
+              "RelativeToolTip": "Models\\Photo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-14T09:32:33.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fruit.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Fruit.cs",
+              "RelativeDocumentMoniker": "Models\\Fruit.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Fruit.cs",
+              "RelativeToolTip": "Models\\Fruit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-23T14:25:39.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "Models\\Food.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Food.cs",
+              "RelativeToolTip": "Models\\Food.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAIBWwEAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JavaScript1.js",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\js\\JavaScript1.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\JavaScript1.js",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\js\\JavaScript1.js",
+              "RelativeToolTip": "wwwroot\\js\\JavaScript1.js",
+              "ViewState": "AQIAAF4AAAAAAAAAAABEwGoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-01-24T11:08:41.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAEBawCkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:11.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogInUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\LogInUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LogInUser.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\LogInUser.cshtml",
+              "RelativeToolTip": "Views\\Home\\LogInUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T10:55:23.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "viewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\viewCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\viewCart.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\viewCart.cshtml",
+              "RelativeToolTip": "Views\\Home\\viewCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhotoConvertFileToBytes.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\PhotoConvertFileToBytes.cs",
+              "RelativeDocumentMoniker": "Models\\PhotoConvertFileToBytes.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\PhotoConvertFileToBytes.cs",
+              "RelativeToolTip": "Models\\PhotoConvertFileToBytes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-14T09:30:52.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Hover.css",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\css\\Hover.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Hover.css",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\css\\Hover.css",
+              "RelativeToolTip": "wwwroot\\css\\Hover.css",
+              "ViewState": "AQIAAFQBAAAAAAAAAABewFoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-01-22T18:04:34.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\Home\\SignIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-29T15:10:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EquipmentDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EquipmentDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\EquipmentDetails.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EquipmentDetails.cshtml",
+              "RelativeToolTip": "Views\\Manager\\EquipmentDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T13:21:39.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShakeAndTosafDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\ShakeAndTosafDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\ShakeAndTosafDetails.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\ShakeAndTosafDetails.cshtml",
+              "RelativeToolTip": "Views\\Manager\\ShakeAndTosafDetails.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBmwF8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T13:27:07.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\Search.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\Search.cshtml",
+              "RelativeToolTip": "Views\\Manager\\Search.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAMBywC0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-24T10:52:18.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "viewOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\viewOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\viewOrder.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\viewOrder.cshtml",
+              "RelativeToolTip": "Views\\Manager\\viewOrder.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAMBywAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T07:26:17.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShakeAndTosaf.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\ShakeAndTosaf.cs",
+              "RelativeDocumentMoniker": "Models\\ShakeAndTosaf.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\ShakeAndTosaf.cs",
+              "RelativeToolTip": "Models\\ShakeAndTosaf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\Menu.cshtml",
+              "RelativeToolTip": "Views\\Manager\\Menu.cshtml",
+              "ViewState": "AQIAAKgAAAAAAAAAAMCCwDAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VmShakesTosaf.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\VmShakesTosaf.cs",
+              "RelativeDocumentMoniker": "Models\\VmShakesTosaf.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\VmShakesTosaf.cs",
+              "RelativeToolTip": "Models\\VmShakesTosaf.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:12.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABOwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-19T09:38:11.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewMessages.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\ViewMessages.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\ViewMessages.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\ViewMessages.cshtml",
+              "RelativeToolTip": "Views\\Manager\\ViewMessages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAMCCwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T07:18:36.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "viewUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\viewUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\viewUsers.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\viewUsers.cshtml",
+              "RelativeToolTip": "Views\\Manager\\viewUsers.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAGCIwEcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T07:32:12.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Manager\\EditUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-26T07:46:07.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditShakeAndTosaf.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EditShakeAndTosaf.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\EditShakeAndTosaf.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Manager\\EditShakeAndTosaf.cshtml",
+              "RelativeToolTip": "Views\\Manager\\EditShakeAndTosaf.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwDAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-24T09:04:13.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-01-19T10:48:56.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05E9\u05E2\u05D5\u05E8\u05D9\u05DD\\full stack C\\Gym\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-01-19T09:38:12.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
